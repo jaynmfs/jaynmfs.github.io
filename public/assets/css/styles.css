@@ -69,6 +69,18 @@ footer {
 .pagename {
     padding: 1rem;
     border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pagename a {
+    margin-left: auto;
+}
+
+.quote {
+    padding: 1rem;
+    border-bottom: 1px solid grey;
 }
 
 .content {
@@ -230,8 +242,8 @@ footer {
     .sidebar {
         border-right: 1px solid grey;
         display: block;
-        min-width: 120px;
-        width: 120px;
+        min-width: 240px;
+        width: 200px;
     }
 
     .content {
